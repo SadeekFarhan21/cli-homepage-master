@@ -97,7 +97,7 @@ class MyDocument extends Document {
 					<meta name="theme-color" content="#D79921" />
 					<meta
 						name="description"
-						content="CLI Startpage | Simon Ilincev"
+						content="CLI Startpage | Farhan Sadeek"
 					/>
 				</Head>
 

@@ -26,7 +26,7 @@ export const email = async (args: string[]): Promise<string> => {
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
-	setTimeout(function() {
+	setTimeout(function () {
 		window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 	}, 1000);
 
@@ -34,8 +34,8 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 export const repo = async (args?: string[]): Promise<string> => {
-	setTimeout(function() {
-		window.open("https://github.com/Destaq/cli-homepage", "_blank");
+	setTimeout(function () {
+		window.open("https://github.com/SadeekFarhan21/cli-homepage", "_blank");
 	}, 1000);
 
 	return "Opening repository...";
@@ -43,20 +43,16 @@ export const repo = async (args?: string[]): Promise<string> => {
 
 export const banner = (args?: string[]): string => {
 	return `
-██████╗ ███████╗███████╗████████╗ █████╗  ██████╗ 
-██╔══██╗██╔════╝██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗
-██║  ██║█████╗  ███████╗   ██║   ███████║██║   ██║
-██║  ██║██╔══╝  ╚════██║   ██║   ██╔══██║██║▄▄ ██║
-██████╔╝███████╗███████║   ██║   ██║  ██║╚██████╔╝
-╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚══▀▀═╝  v${packageJson.version}
+
+########    ###    ########  ##     ##    ###    ##    ## 
+##         ## ##   ##     ## ##     ##   ## ##   ###   ## 
+##        ##   ##  ##     ## ##     ##  ##   ##  ####  ## 
+######   ##     ## ########  ######### ##     ## ## ## ## 
+##       ######### ##   ##   ##     ## ######### ##  #### 
+##       ##     ## ##    ##  ##     ## ##     ## ##   ### 
+##       ##     ## ##     ## ##     ## ##     ## ##    ##  v${packageJson.version}
 
 Type 'help' to see list of available commands.
 
---
-The project is open-source 🎉 type 'repo' to check out the repository.
-
-New 🎉: Try out the new 'theme' command. See all available themes <a href="https://github.com/Destaq/cli-homepage/tree/master/docs/themes">in the docs</a>.
-New 🎉: New command 'neofetch', for you linux.
---
 `;
 };
