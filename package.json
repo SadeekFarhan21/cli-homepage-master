@@ -9,7 +9,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/SadeekFarhan21/cli-homepage"
+		"url": "https://github.com/SadeekFarhan21/cli-homepage-master"
 	},
 	"scripts": {
 		"start": "next start",

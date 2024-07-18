@@ -1,9 +1,9 @@
 {
-  "bioUrl": "https://raw.githubusercontent.com/SadeekFarhan21/cli-homepage-master/main/bio.html",
-  "social": {
-    "github": "SadeekFarhan21",
-    "linkedin": "farhansadeekde110"
-  },
-  "theme": "gruvboxdark",
-  "border": true
+	"bioUrl": "https://raw.githubusercontent.com/SadeekFarhan21/cli-homepage-master/main/bio.html",
+	"social": {
+		"github": "SadeekFarhan21",
+		"linkedin": "farhansadeekde110"
+	},
+	"theme": "gruvboxdark",
+	"border": true
 }
